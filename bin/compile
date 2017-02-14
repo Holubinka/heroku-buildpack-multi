@@ -5,7 +5,7 @@ set -e
 YELLOW='\033[1;33m'
 RESET='\033[0m'
 
-echo -e "${YELLOW}WARNING: This buildpack is no longer maintained by ddollar and forked in December 2016 to be hosted on Brandscopic Github."
+echo -e "${YELLOW}WARNING: This buildpack is no longer maintained by ddollar and forked in December 2016 to be hosted for further usage."
 echo -e
 echo -e "When possible, look into Heroku's multiple buildpack support: https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app"
 echo -e "and potentially eliminate the need for this buildpack (though it is nice to set the buildpack settings in the .buildpacks config file).${RESET}"
